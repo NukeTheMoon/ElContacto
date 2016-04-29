@@ -8,7 +8,7 @@
     <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView" android:layout_weight="0.84" android:layout_gravity="center_horizontal"
+            android:id="@+id/portrait" android:layout_weight="0.84" android:layout_gravity="center_horizontal"
             android:maxWidth="100pt" android:maxHeight="50pt"
             android:nestedScrollingEnabled="false" android:layout_marginTop="8pt"
             android:contentDescription="portrait"/>
@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="choose portrait"
-            android:id="@+id/btnChoosePortrait" android:layout_gravity="center_horizontal"
+            android:id="@+id/choosePortraitButton" android:layout_gravity="center_horizontal"
             android:layout_marginTop="8pt"/>
     <EditText
             android:layout_width="match_parent"
@@ -46,6 +46,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Add"
-            android:id="@+id/addContact" android:layout_gravity="center_horizontal"/>
+            android:id="@+id/addContactButton" android:layout_gravity="center_horizontal"/>
 </LinearLayout>
 

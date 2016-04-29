@@ -1,5 +1,6 @@
 package com.bjedrasik.elcontacto;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -17,7 +18,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class ContactsActivity extends AppCompatActivity {
+public class ContactsActivity extends Activity {
 
     private DbAccess _dbAccess;
     private FloatingActionButton _addContactButton;
