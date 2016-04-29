@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/relativeLayout" android:layout_height="match_parent"
+                android:orientation="vertical" android:layout_width="match_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                tools:context="com.bjedrasik.elcontacto.ContactsActivity"
+                xmlns:tools="http://schemas.android.com/tools">
+
+        <ScrollView android:layout_height="match_parent" android:id="@+id/scrollView1"
+                    android:layout_width="match_parent" android:fillViewport="false">
+            <LinearLayout android:id="@+id/linearLayout" android:layout_width="match_parent"
+                          android:orientation="vertical" android:layout_height="wrap_content">
+
+            </LinearLayout>
+        </ScrollView>
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/newContact"
+                android:src="@drawable/plus_circle"
+                app:fabSize="normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp"
+                android:layout_gravity="end"/>
+
+    </RelativeLayout>

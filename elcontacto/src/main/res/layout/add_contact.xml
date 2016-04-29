@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1"
+              tools:context="com.bjedrasik.elcontacto.AddContactActivity">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:layout_weight="0.84" android:layout_gravity="center_horizontal"
+            android:maxWidth="100pt" android:maxHeight="50pt"
+            android:nestedScrollingEnabled="false" android:layout_marginTop="8pt"
+            android:contentDescription="portrait"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="choose portrait"
+            android:id="@+id/btnChoosePortrait" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8pt"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/name" android:layout_marginLeft="18pt" android:layout_marginRight="18pt"
+            android:layout_marginTop="18pt" android:hint="Name"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/surname" android:layout_marginLeft="18pt"
+            android:layout_marginRight="18pt" android:inputType="textPersonName" android:hint="Surname"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/email" android:layout_marginLeft="18pt"
+            android:layout_marginRight="18pt" android:inputType="textEmailAddress" android:hint="Email"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone" android:layout_marginLeft="18pt"
+            android:layout_marginRight="18pt" android:layout_marginBottom="18pt" android:inputType="phone"
+            android:hint="Phone"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:id="@+id/addContact" android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
